@@ -11,5 +11,6 @@
      <view name="sentiment"/>
      <view name="sentiment_ds"/>
   </collection>
+  <view name="similarity"/>
   <view name="classification"/>
 </nav>
