@@ -5,10 +5,7 @@ import os
 from ast import literal_eval
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
-if sys.version_info >= (3, 0):
-    sys.path.insert(0, os.path.join(BASE_DIR,'lib3'))
-else:
-    sys.path.insert(0, os.path.join(BASE_DIR,'lib2'))
+sys.path.insert(0, os.path.join(BASE_DIR,'lib3'))
 from bs4 import BeautifulSoup
 from splunklib.searchcommands import dispatch, StreamingCommand, Configuration, Option, validators
 

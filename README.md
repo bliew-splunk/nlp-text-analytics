@@ -8,7 +8,7 @@ Available at:
 Splunk App Available at:
 [https://splunkbase.splunk.com/app/4066/](https://splunkbase.splunk.com/app/4066/)
 
-Version: 1.2.4
+Version: 1.2.5
 
 ##### Author: Nathan Worsham 
 Created for MSDS692 Data Science Practicum I at Regis University, 2018 </br>
@@ -339,3 +339,6 @@ Updated default metadata for Splunk Cloud support.
 
 # 1.2.4
 Updated splunklib from 2.0.2 to 2.1.1. Fixed similarity command.
+
+# 1.2.5
+Removed Python2 requirments.
