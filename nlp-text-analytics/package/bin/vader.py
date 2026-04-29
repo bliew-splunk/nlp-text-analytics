@@ -9,6 +9,8 @@ Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.
 import exec_anaconda
 exec_anaconda.exec_anaconda()
 
+import import_declare_test
+
 import sys
 import os
 

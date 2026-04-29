@@ -2,6 +2,8 @@
 import exec_anaconda
 exec_anaconda.exec_anaconda()
 
+import import_declare_test
+
 import sys
 import re
 import os
