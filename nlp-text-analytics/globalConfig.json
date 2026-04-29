@@ -194,7 +194,7 @@
         "restRoot": "nlp-text-analytics",
         "version": "0.0.1",
         "displayName": "NLP Text Analytics",
-        "schemaVersion": "0.0.8",
+        "schemaVersion": "0.0.10",
         "supportedThemes": [
             "light",
             "dark"

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<nav color="#9C1E5D" search_view="search">
+  <view default="true" name="welcome"/>
+  <view name="counts"/>
+  <collection label="Themes">
+     <view name="cluster_themes"/>
+     <view name="named_entity_themes"/>
+     <view name="named_entity_themes_ds"/>
+  </collection>
+  <collection label="Sentiment">
+     <view name="sentiment"/>
+     <view name="sentiment_ds"/>
+  </collection>
+  <view name="similarity"/>
+  <view name="classification"/>
+</nav>
