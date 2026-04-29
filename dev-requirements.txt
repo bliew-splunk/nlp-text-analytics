@@ -1,0 +1,16 @@
+addonfactory_splunk_conf_parser_lib==1.0.0
+attrs==26.1.0
+certifi==2026.4.22
+colorama==0.4.6
+defusedxml==0.7.1
+dunamai==1.26.1
+Jinja2==3.1.6
+jsonschema==4.25.1
+jsonschema-specifications==2025.9.1
+MarkupSafe==3.0.3
+packaging==26.2
+PyYAML==6.0.3
+referencing==0.36.2
+rpds-py==0.27.1
+splunk_add_on_ucc_framework==6.4.0
+typing_extensions==4.15.0
