@@ -3,3 +3,4 @@ splunk-sdk
 solnlib
 beautifulsoup4==4.8.2
 nltk==3.9.1
+remote-pdb

@@ -2,10 +2,17 @@
 import exec_anaconda
 exec_anaconda.exec_anaconda()
 
+"""
+Because of exec_anaconda, script is actually run in Python runtime bundled with PSC
+With PSC v4.3.1, this is CPython 3.13.11
+"""
 import import_declare_test
 
 import sys
 import os
+
+from remote_pdb import RemotePdb
+RemotePdb('127.0.0.1', 4444).set_trace()
 
 from collections import OrderedDict
 from nltk.metrics.distance import edit_distance
