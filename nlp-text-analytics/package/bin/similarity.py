@@ -20,12 +20,15 @@ from nltk.metrics.distance import jaro_similarity
 from nltk.metrics.distance import jaro_winkler_similarity
 from nltk.metrics.distance import jaccard_distance
 from nltk.metrics.distance import masi_distance
-from nltk.data import path as nltk_data_path
 from splunklib.searchcommands import dispatch, StreamingCommand, Configuration, Option, validators
 
-BASE_DIR = os.path.dirname(os.path.realpath(__file__))
-CORPORA_DIR = os.path.join(BASE_DIR,'nltk_data')
-nltk_data_path.append(CORPORA_DIR)
+"""
+Potentially unused? Maybe remove?
+# from nltk.data import path as nltk_data_path
+# BASE_DIR = os.path.dirname(os.path.realpath(__file__))
+# CORPORA_DIR = os.path.join(BASE_DIR,'nltk_data')
+# nltk_data_path.append(CORPORA_DIR)
+"""
 
 
 @Configuration(local=True)
